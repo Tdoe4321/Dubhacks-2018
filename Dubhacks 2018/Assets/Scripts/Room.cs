@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 
 public class Room : MonoBehaviour {
@@ -8,6 +9,8 @@ public class Room : MonoBehaviour {
     public Transform[] objectSpawns;
     public Transform[] paintingSpawns;
     public Transform textSpawn;
+    public BoxCollider roomCollider;
+    public AudioSource audioSource;
 
 	// Use this for initialization
 	void Start () {
@@ -18,4 +21,24 @@ public class Room : MonoBehaviour {
 	void Update () {
 		
 	}
+
+    private void OnTriggerEnter(Collider other)
+    {
+        audioSource.Play();
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        audioSource.Stop();
+    }
+
+    public void SetAudio(string path)
+    {
+        string fullPath = Path.Combine(Application.streamingAssetsPath, path);
+        string url = "file:///" + path;
+        WWW weblink = new WWW(url);
+        audioSource.clip = weblink.GetAudioClip();
+    }
+
+    
 }

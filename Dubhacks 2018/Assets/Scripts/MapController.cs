@@ -71,6 +71,8 @@ public class MapController : MonoBehaviour {
                 prefab.GetComponent<Renderer>().material.mainTexture = texture;
             }
 
+            currentRoom.SetAudio(rc.audioPath);
+
             GameObject tmp = Instantiate(textMeshPro, currentRoom.textSpawn.position, currentRoom.textSpawn.rotation);
             tmp.GetComponent<TMPro.TextMeshPro>().text = rc.text;
 
