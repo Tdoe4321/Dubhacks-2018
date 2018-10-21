@@ -11,7 +11,8 @@ public class MapController : MonoBehaviour {
     public Room middleRoom;
     public Room endRoom;
     public Room corridor;
-    public OVRPlayerController player;
+    public OVRCameraRig playerPrefab;
+    public ArcTeleporter teleporterPrefab;
     private Map mapData;
     public GameObject paintingPrefab;
     public GameObject textMeshPro;
@@ -34,7 +35,11 @@ public class MapController : MonoBehaviour {
         }
 
         Room prevRoom = Instantiate(startRoom, level);
-        Instantiate(player, playerSpawn.position, playerSpawn.rotation);
+        // instantiate player
+        OVRCameraRig player = Instantiate(playerPrefab, playerSpawn.position, playerSpawn.rotation);
+        ArcTeleporter teleporter = Instantiate(teleporterPrefab);
+        teleporter.objectToMove = player.transform;
+        teleporter.GetComponent<TallRaycaster>().trackingSpace = player.GetComponentInChildren<Transform>();
 
         // generate rooms
         for (int i = 0; i < mapData.rooms.Length; i++)
