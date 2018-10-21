@@ -418,7 +418,10 @@ MonoBehaviour:
     type: 2}
   endRoom: {fileID: 114971032752127992, guid: ffe8c072243d20e4b914d53566a1f06c, type: 2}
   corridor: {fileID: 114167016952965044, guid: ae8e827e432e5b94cbbf421bbb0681e1, type: 2}
-  player: {fileID: 114532396802142274, guid: 5398b515221bd4643ac8372d321818f9, type: 2}
+  playerPrefab: {fileID: 114713675712827062, guid: f5976f3fa66d9434ebdf18c0e81b3bd7,
+    type: 2}
+  teleporterPrefab: {fileID: 114082115597748720, guid: 31474271567c64a13aaf52e12461ffab,
+    type: 2}
   paintingPrefab: {fileID: 1175838337327584, guid: 1df9d6fd4373bb84c8ac7ed8e215422b,
     type: 2}
   textMeshPro: {fileID: 1745282728859304, guid: 7e8861e07d893e544af7004914377ae8,
