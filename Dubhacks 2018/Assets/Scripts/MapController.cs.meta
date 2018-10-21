@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: a93ad33535115134a98324e0b202ea9c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - playerSpawn: {instanceID: 0}
+  - level: {instanceID: 0}
+  - startRoom: {instanceID: 0}
+  - middleRoom: {fileID: 114291060169624848, guid: 393bfe1a73ba0cb41b5742acfdfc1295,
+      type: 2}
+  - endRoom: {instanceID: 0}
+  - corridor: {instanceID: 0}
+  - player: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
