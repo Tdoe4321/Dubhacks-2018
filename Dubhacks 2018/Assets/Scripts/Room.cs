@@ -24,6 +24,7 @@ public class Room : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other)
     {
+        print("enter!");
         audioSource.Play();
     }
 
@@ -39,6 +40,4 @@ public class Room : MonoBehaviour {
         WWW weblink = new WWW(url);
         audioSource.clip = weblink.GetAudioClip();
     }
-
-    
 }
