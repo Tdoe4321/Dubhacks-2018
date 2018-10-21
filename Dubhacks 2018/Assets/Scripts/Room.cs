@@ -7,6 +7,7 @@ public class Room : MonoBehaviour {
     public Transform[] exits;
     public Transform[] objectSpawns;
     public Transform[] paintingSpawns;
+    public Transform textSpawn;
 
 	// Use this for initialization
 	void Start () {

@@ -421,6 +421,8 @@ MonoBehaviour:
   player: {fileID: 114532396802142274, guid: 5398b515221bd4643ac8372d321818f9, type: 2}
   paintingPrefab: {fileID: 1175838337327584, guid: 1df9d6fd4373bb84c8ac7ed8e215422b,
     type: 2}
+  textMeshPro: {fileID: 1745282728859304, guid: 7e8861e07d893e544af7004914377ae8,
+    type: 2}
 --- !u!4 &1131210546
 Transform:
   m_ObjectHideFlags: 0

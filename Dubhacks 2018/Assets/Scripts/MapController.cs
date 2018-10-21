@@ -14,6 +14,7 @@ public class MapController : MonoBehaviour {
     public OVRPlayerController player;
     private Map mapData;
     public GameObject paintingPrefab;
+    public GameObject textMeshPro;
 
     private readonly string mapJsonFile = "map.json";
 
@@ -64,6 +65,9 @@ public class MapController : MonoBehaviour {
                 GameObject prefab = Instantiate(paintingPrefab, currentRoom.paintingSpawns[j].position, currentRoom.paintingSpawns[j].rotation);
                 prefab.GetComponent<Renderer>().material.mainTexture = texture;
             }
+
+            GameObject tmp = Instantiate(textMeshPro, currentRoom.textSpawn.position, currentRoom.textSpawn.rotation);
+            tmp.GetComponent<TMPro.TextMeshPro>().text = rc.text;
 
             // instanstiate room
             prevRoom = currentRoom;

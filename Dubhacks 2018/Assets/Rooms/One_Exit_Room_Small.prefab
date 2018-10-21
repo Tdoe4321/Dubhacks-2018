@@ -1851,6 +1851,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!1 &1593054121096570
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4207321690798996}
+  m_Layer: 0
+  m_Name: Text_Spawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1594615964074702
 GameObject:
   m_ObjectHideFlags: 1
@@ -3398,6 +3413,19 @@ Transform:
   m_Father: {fileID: 4668353325504356}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!4 &4207321690798996
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1593054121096570}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 14.2, y: 2.32, z: 8.071}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4666436858342712}
+  m_RootOrder: 125
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!4 &4210944316526874
 Transform:
   m_ObjectHideFlags: 1
@@ -4644,6 +4672,7 @@ Transform:
   - {fileID: 4610110422248530}
   - {fileID: 4707969841105900}
   - {fileID: 4619757223708578}
+  - {fileID: 4207321690798996}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7986,3 +8015,4 @@ MonoBehaviour:
   paintingSpawns:
   - {fileID: 4707969841105900}
   - {fileID: 4619757223708578}
+  textSpawn: {fileID: 4207321690798996}
