@@ -1,4 +1,5 @@
 import requests
+import os
 from io import open as iopen
 from urlparse import urlsplit
 import itertools
@@ -79,6 +80,15 @@ def outputAudio(number, sentence):
 	tts.save(path)
 	return path
 
+dirPath = "photos"
+fileList = os.listdir(dirPath)
+for fileName in fileList:
+	os.remove(dirPath+"/"+fileName)
+
+dirPath = "audio"
+fileList = os.listdir(dirPath)
+for fileName in fileList:
+	os.remove(dirPath+"/"+fileName)
 
 inputFileName = raw_input('Enter file name: ')
 f = open(str(inputFileName), "r")

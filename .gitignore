@@ -34,3 +34,10 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+
+# Media folders
+audio/*
+photos/*
+Dubhacks\ 2018/Assets/StreamingAssets/audio/*
+Dubhacks\ 2018/Assets/StreamingAssets/photos/*
+
