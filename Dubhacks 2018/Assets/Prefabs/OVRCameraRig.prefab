@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4836027672478506}
   - component: {fileID: 33273845051347618}
   - component: {fileID: 23656002795486278}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: center_button_PLY
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38,7 +38,7 @@ GameObject:
   - component: {fileID: 4589697600187884}
   - component: {fileID: 33727846465153204}
   - component: {fileID: 23916859091757864}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: chassis_PLY
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55,7 +55,7 @@ GameObject:
   - component: {fileID: 4832173944124606}
   - component: {fileID: 33063662744536882}
   - component: {fileID: 23207939039790164}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: back_button_PLY
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72,7 +72,7 @@ GameObject:
   - component: {fileID: 4295972556745016}
   - component: {fileID: 33014586360628674}
   - component: {fileID: 23648950747378810}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: center_button_PLY
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -89,7 +89,7 @@ GameObject:
   - component: {fileID: 4281954785160468}
   - component: {fileID: 33267192888772008}
   - component: {fileID: 23114507191803944}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: home_button_PLY
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -105,7 +105,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4280691546816588}
   - component: {fileID: 114075714446804390}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: LTrackedRemote
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -122,7 +122,7 @@ GameObject:
   - component: {fileID: 4535070736420412}
   - component: {fileID: 33001563338959458}
   - component: {fileID: 23717504365904098}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: disc_button_PLY
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -139,7 +139,7 @@ GameObject:
   - component: {fileID: 4713370230685346}
   - component: {fileID: 81791428294908596}
   - component: {fileID: 20047490692900240}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: CenterEyeAnchor
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -156,7 +156,7 @@ GameObject:
   - component: {fileID: 4393992073102434}
   - component: {fileID: 33640878373811616}
   - component: {fileID: 23298695190878604}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: text_PLY
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -172,7 +172,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4063371699733684}
   - component: {fileID: 114271879136210142}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: RTouch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -192,7 +192,7 @@ GameObject:
   - component: {fileID: 114142639766425768}
   - component: {fileID: 65326100620821100}
   - component: {fileID: 54177676674814322}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: OVRCameraRig
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -209,7 +209,7 @@ GameObject:
   - component: {fileID: 4927134911380546}
   - component: {fileID: 33649782841597876}
   - component: {fileID: 23011417328347866}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: trigger_PLY
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -224,7 +224,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4179436905368256}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: TrackingSpace
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -239,7 +239,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4502587838505700}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: GearVrControllerModel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -256,7 +256,7 @@ GameObject:
   - component: {fileID: 4389708558353060}
   - component: {fileID: 33718799564185888}
   - component: {fileID: 23866929422393844}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: OculusGoControllerModel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -272,7 +272,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4624049790716044}
   - component: {fileID: 114978715178218390}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: RTrackedRemote
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -289,7 +289,7 @@ GameObject:
   - component: {fileID: 4583495601327700}
   - component: {fileID: 33788927104037666}
   - component: {fileID: 23022266803545248}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: OculusGoControllerModel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -304,7 +304,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4164617179104810}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: LeftHandAnchor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -320,7 +320,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4288932523999368}
   - component: {fileID: 20845422063119178}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: RightEyeAnchor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -335,7 +335,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4467462995537730}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: TrackerAnchor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -352,7 +352,7 @@ GameObject:
   - component: {fileID: 4607572923709078}
   - component: {fileID: 33056516904858162}
   - component: {fileID: 23772081805870326}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: trigger_PLY
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -367,7 +367,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4993763684196236}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: GearVrControllerModel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -384,7 +384,7 @@ GameObject:
   - component: {fileID: 4938925433222778}
   - component: {fileID: 33758667385881974}
   - component: {fileID: 23596827193640042}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: back_button_PLY
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -401,7 +401,7 @@ GameObject:
   - component: {fileID: 4357151126855352}
   - component: {fileID: 33588638315367726}
   - component: {fileID: 23661309833147658}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: home_button_PLY
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -418,7 +418,7 @@ GameObject:
   - component: {fileID: 4488043785192432}
   - component: {fileID: 33268883807398120}
   - component: {fileID: 23701815403232668}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: center_button_PLY
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -435,7 +435,7 @@ GameObject:
   - component: {fileID: 4471028420498378}
   - component: {fileID: 33839561615859324}
   - component: {fileID: 23545381089318146}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: center_button_PLY
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -452,7 +452,7 @@ GameObject:
   - component: {fileID: 4199135625975378}
   - component: {fileID: 33600103566141460}
   - component: {fileID: 23327198323058312}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: disc_button_PLY
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -467,7 +467,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4160710427008008}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: GearVrControllerModel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -484,7 +484,7 @@ GameObject:
   - component: {fileID: 4633249993139740}
   - component: {fileID: 33113317036211456}
   - component: {fileID: 23007252932377408}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: text_PLY
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -501,7 +501,7 @@ GameObject:
   - component: {fileID: 4457160410801076}
   - component: {fileID: 33393814615669372}
   - component: {fileID: 23863181932428952}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: chassis_PLY
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -518,7 +518,7 @@ GameObject:
   - component: {fileID: 4022125568305472}
   - component: {fileID: 33783125933864160}
   - component: {fileID: 23837996314774338}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: text_PLY
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -535,7 +535,7 @@ GameObject:
   - component: {fileID: 4881829164248462}
   - component: {fileID: 33079994270101672}
   - component: {fileID: 23818635317633166}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: OculusGoControllerModel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -552,7 +552,7 @@ GameObject:
   - component: {fileID: 224948158484766692}
   - component: {fileID: 222417978626642122}
   - component: {fileID: 114433469945826704}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -569,7 +569,7 @@ GameObject:
   - component: {fileID: 4568729295700214}
   - component: {fileID: 33902360939018272}
   - component: {fileID: 23493643911938204}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: back_button_PLY
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -586,7 +586,7 @@ GameObject:
   - component: {fileID: 224073345969258528}
   - component: {fileID: 222084166098634242}
   - component: {fileID: 114460301545132892}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -603,7 +603,7 @@ GameObject:
   - component: {fileID: 4626766424850444}
   - component: {fileID: 33806785669350274}
   - component: {fileID: 23756590429029862}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: disc_button_PLY
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -618,7 +618,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4229321438434628}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: GearVrControllerModel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -635,7 +635,7 @@ GameObject:
   - component: {fileID: 4249610285220798}
   - component: {fileID: 33740532760545912}
   - component: {fileID: 23480838281835796}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: chassis_PLY
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -652,7 +652,7 @@ GameObject:
   - component: {fileID: 4746334572359818}
   - component: {fileID: 33839350992371064}
   - component: {fileID: 23763207448604914}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: OculusGoControllerModel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -669,7 +669,7 @@ GameObject:
   - component: {fileID: 4470899302274504}
   - component: {fileID: 33296249991068570}
   - component: {fileID: 23964812138126702}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: disc_button_PLY
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -684,7 +684,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4754232770337980}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: RightHandAnchor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -700,7 +700,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4726276639428656}
   - component: {fileID: 114782879880545810}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: LTouch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -717,7 +717,7 @@ GameObject:
   - component: {fileID: 4446722213872076}
   - component: {fileID: 33154836363551172}
   - component: {fileID: 23358321410242288}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: text_PLY
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -734,7 +734,7 @@ GameObject:
   - component: {fileID: 4251471924711308}
   - component: {fileID: 33165269290379738}
   - component: {fileID: 23303844903308666}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: home_button_PLY
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -751,7 +751,7 @@ GameObject:
   - component: {fileID: 4696233403309392}
   - component: {fileID: 33339045004389580}
   - component: {fileID: 23998031580925880}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: trigger_PLY
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -768,7 +768,7 @@ GameObject:
   - component: {fileID: 4768825616907952}
   - component: {fileID: 33280473234482482}
   - component: {fileID: 23891646799782050}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: home_button_PLY
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -785,7 +785,7 @@ GameObject:
   - component: {fileID: 4101973795450740}
   - component: {fileID: 33470644848577062}
   - component: {fileID: 23776167337875458}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: trigger_PLY
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -804,7 +804,7 @@ GameObject:
   - component: {fileID: 114447325387595928}
   - component: {fileID: 114730017295843278}
   - component: {fileID: 114461688506234406}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: NoController
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -821,7 +821,7 @@ GameObject:
   - component: {fileID: 4971291317057230}
   - component: {fileID: 33088587279978018}
   - component: {fileID: 23184133017639686}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: back_button_PLY
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -838,7 +838,7 @@ GameObject:
   - component: {fileID: 4590367995173410}
   - component: {fileID: 33446802257360838}
   - component: {fileID: 23635142777189014}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: chassis_PLY
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -854,7 +854,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4850563011709860}
   - component: {fileID: 20677029667523998}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: LeftEyeAnchor
   m_TagString: MainCamera
   m_Icon: {fileID: 0}

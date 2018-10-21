@@ -1090,7 +1090,7 @@ GameObject:
   - component: {fileID: 4939178050993334}
   - component: {fileID: 114106718154972538}
   - component: {fileID: 65613851023735600}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Two_Exit_Room_Small
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1483,6 +1483,21 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!1 &1512316858461354
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4469900783110162}
+  m_Layer: 0
+  m_Name: Painting_Spawn_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!1 &1515634357838648
 GameObject:
@@ -2772,6 +2787,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!1 &1900941563066044
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4644034875604674}
+  m_Layer: 0
+  m_Name: Painting_Spawn_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1900957495684660
 GameObject:
   m_ObjectHideFlags: 0
@@ -2916,7 +2946,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4847379554396502}
   m_Layer: 0
-  m_Name: Painting_Spawn_1
+  m_Name: Painting_Spawn_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4128,6 +4158,19 @@ Transform:
   m_Father: {fileID: 4939178050993334}
   m_RootOrder: 95
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4469900783110162
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1512316858461354}
+  m_LocalRotation: {x: 0.70710677, y: 0, z: 0, w: 0.70710677}
+  m_LocalPosition: {x: 19.5, y: 2.68, z: 8}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4939178050993334}
+  m_RootOrder: 133
+  m_LocalEulerAnglesHint: {x: 90, y: -90, z: -90}
 --- !u!4 &4477506606783388
 Transform:
   m_ObjectHideFlags: 1
@@ -4546,6 +4589,19 @@ Transform:
   m_Father: {fileID: 4808522723611614}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4644034875604674
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1900941563066044}
+  m_LocalRotation: {x: 0.5, y: 0.5, z: -0.5, w: 0.5}
+  m_LocalPosition: {x: 8.01, y: 2.5, z: 15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4939178050993334}
+  m_RootOrder: 129
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: -90}
 --- !u!4 &4645421914112640
 Transform:
   m_ObjectHideFlags: 1
@@ -5151,13 +5207,13 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1947408244870066}
-  m_LocalRotation: {x: 0.5, y: 0.5, z: -0.5, w: 0.5}
-  m_LocalPosition: {x: 8.01, y: 2.5, z: 15}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 10.45, y: 2.68, z: 8.04}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 0.99999994}
   m_Children: []
   m_Father: {fileID: 4939178050993334}
-  m_RootOrder: 129
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: -90}
+  m_RootOrder: 134
+  m_LocalEulerAnglesHint: {x: 90, y: -90, z: -90}
 --- !u!4 &4859266019552800
 Transform:
   m_ObjectHideFlags: 1
@@ -5549,10 +5605,12 @@ Transform:
   - {fileID: 4752153864354188}
   - {fileID: 4808667584862404}
   - {fileID: 4804509409891488}
-  - {fileID: 4847379554396502}
+  - {fileID: 4644034875604674}
   - {fileID: 4387940266152854}
   - {fileID: 224334459265250540}
   - {fileID: 4083604282117954}
+  - {fileID: 4469900783110162}
+  - {fileID: 4847379554396502}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8488,7 +8546,9 @@ MonoBehaviour:
   - {fileID: 4752153864354188}
   - {fileID: 4804509409891488}
   paintingSpawns:
+  - {fileID: 4469900783110162}
   - {fileID: 4847379554396502}
+  - {fileID: 4644034875604674}
   - {fileID: 4387940266152854}
   textSpawn: {fileID: 224334459265250540}
   roomCollider: {fileID: 65613851023735600}
