@@ -40,4 +40,7 @@ audio/*
 photos/*
 Dubhacks\ 2018/Assets/StreamingAssets/audio/*
 Dubhacks\ 2018/Assets/StreamingAssets/photos/*
-
+*.meta
+!spec/*.meta
+*.mp3
+!spec/*.mp3
