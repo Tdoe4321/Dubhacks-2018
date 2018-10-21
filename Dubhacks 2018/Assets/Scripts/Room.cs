@@ -11,6 +11,7 @@ public class Room : MonoBehaviour {
     public Transform textSpawn;
     public BoxCollider roomCollider;
     public AudioSource audioSource;
+    private bool ready = false;
 
 	// Use this for initialization
 	void Start () {
@@ -24,7 +25,6 @@ public class Room : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other)
     {
-        print("enter!");
         audioSource.Play();
     }
 
@@ -38,6 +38,7 @@ public class Room : MonoBehaviour {
         string fullPath = Path.Combine(Application.streamingAssetsPath, path);
         string url = "file:///" + fullPath;
         WWW weblink = new WWW(url);
+        
         audioSource.clip = weblink.GetAudioClip();
     }
 }
