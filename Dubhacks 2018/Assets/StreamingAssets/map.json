@@ -4,19 +4,19 @@
         {
             "text": "I",
             "sentiment": 0.1,
-            "imagePath": "photos/I-56a810a33df78cf7729bd08f.png",
+            "imagePaths": [ "photos/I-56a810a33df78cf7729bd08f.png", "photos/I-56a810a33df78cf7729bd08f.png" ],
             "associatedTags": [ "eye", "me" ]
         },
         {
             "text": "like",
             "sentiment": 0.98,
-            "imagePath": "photos/like-button-2015-06.jpg",
+            "imagePaths": [ "photos/like-button-2015-06.jpg", "photos/like-button-2015-06.jpg" ],
             "associatedTags": [ "love", "heart" ]
         },
         {
             "text": "flowers",
             "sentiment": 0.82,
-            "imagePath": "photos/Bachelor's_button,_Basket_flower,_Boutonniere_flower,_Cornflower_-_3.jpg",
+            "imagePaths": [ "photos/Bachelor's_button,_Basket_flower,_Boutonniere_flower,_Cornflower_-_3.jpg", "photos/Bachelor's_button,_Basket_flower,_Boutonniere_flower,_Cornflower_-_3.jpg" ],
             "associatedTags": [ "tulip", "rose", "lily" ]
         }
     ]

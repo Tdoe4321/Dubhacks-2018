@@ -13,6 +13,7 @@ public class MapController : MonoBehaviour {
     public Room corridor;
     public OVRPlayerController player;
     private Map mapData;
+    public GameObject paintingPrefab;
 
     private readonly string mapJsonFile = "map.json";
 
@@ -55,7 +56,14 @@ public class MapController : MonoBehaviour {
                 roomEntrance.rotation.z - prevExit.rotation.z,
                 roomEntrance.rotation.w - prevExit.rotation.w);
             currentRoom.transform.position = prevExit.position - currentRoom.transform.rotation * roomEntrance.localPosition;
-            print(currentRoom.transform.position);
+
+            //room is created, fill with content
+            for (int j = 0; j < rc.imagePaths.Length && j < currentRoom.paintingSpawns.Length; j++)
+            {
+                Texture2D texture = loadImage(new Vector2(100, 100), Path.Combine(Application.streamingAssetsPath, rc.imagePaths[j]));
+                GameObject prefab = Instantiate(paintingPrefab, currentRoom.paintingSpawns[j].position, currentRoom.paintingSpawns[j].rotation);
+                prefab.GetComponent<Renderer>().material.mainTexture = texture;
+            }
 
             // instanstiate room
             prevRoom = currentRoom;
@@ -66,4 +74,14 @@ public class MapController : MonoBehaviour {
 	void Update () {
 		
 	}
+
+    private static Texture2D loadImage(Vector2 size, string filePath)
+    {
+        byte[] bytes = File.ReadAllBytes(filePath);
+        Texture2D texture = new Texture2D((int)size.x, (int)size.y, TextureFormat.RGB24, false);
+        texture.filterMode = FilterMode.Trilinear;
+        texture.LoadImage(bytes);
+
+        return texture;
+    }
 }
