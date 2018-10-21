@@ -35,7 +35,7 @@ public class Room : MonoBehaviour {
     public void SetAudio(string path)
     {
         string fullPath = Path.Combine(Application.streamingAssetsPath, path);
-        string url = "file:///" + path;
+        string url = "file:///" + fullPath;
         WWW weblink = new WWW(url);
         audioSource.clip = weblink.GetAudioClip();
     }
