@@ -17,10 +17,10 @@
 		* Prize for best use of data visualization 
 		* Bike, Snowboard, Longboard
 
-	* Bloomberg
+	* Bloomberg  
 		* Financial and market data provider
-		* One of the largest employers of engineers in NYC
-		
+		* One of the largest employers of engineers in NYC  
+
 	* Microsoft
 		* Asure 
 		* "Developer Advocates" - want feedback from users and developers
