@@ -6,6 +6,8 @@ import itertools
 import json
 from gtts import gTTS
 import re
+import subprocess
+
 
 def requests_image(file_url):
 	try:
@@ -72,14 +74,15 @@ def analyzeText(text):
 			print photo, phrase
 			images.append(photo)
 		json["rooms"].append({"text": text[i], "sentiment": sent, "associatedTags": terms, "imagePaths": images, "audioPath": audioPath})
-		
 	return json
 
 def outputAudio(number, sentence):
 	tts = gTTS(sentence)
 	path = "audio/" + str(number) + '.mp3'
 	tts.save(path)
-	return path
+	newPath = "audio/" + str(number) + '.wav'
+	subprocess.call(['ffmpeg', '-i', path, newPath])
+	return newPath
 
 dirPath = "photos"
 fileList = os.listdir(dirPath)
