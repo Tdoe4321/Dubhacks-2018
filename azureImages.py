@@ -5,6 +5,7 @@ from urlparse import urlsplit
 import itertools
 import json
 from gtts import gTTS
+import re
 
 def requests_image(file_url):
 	try:
@@ -62,7 +63,7 @@ def analyzeText(text):
 	json = {}
 	json["originalText"] = text
 	json["rooms"] = []
-	text = text.split('.')
+	text = re.compile("[.!?]").split(text)
 	for i, (sent, terms) in enumerate(zip(sentiment(text), keyPhrases(text))):
 		audioPath = outputAudio(i, text[i])
 		images = []
